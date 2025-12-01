@@ -1,0 +1,103 @@
+@font-face {
+  font-family: "vazirmatn";
+  src: url(../assets/fonts/vazir/Vazirmatn.ttf);
+}
+body {
+  padding: 0;
+  margin: auto;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  font-family: "vazirmatn";
+  overflow-x: hidden;
+  direction: rtl;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: #e9e9e9;
+
+}
+.menu{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-attachment: fixed;
+  background-repeat:repeat-y;
+  background-size: cover;
+  background-image:linear-gradient(rgba(39, 1, 1, 0.5), rgba(22, 18, 18, 0.852)), url(../assets/photos/31369748.jpg);
+  height:80%;
+}
+  .menu h4{
+    font-size: 35px;
+  }
+  .menu h5{
+    font-size: 20px;
+  }
+  .menu-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+    height: 80%;
+    text-align: center;
+  }
+  .item{
+    display: flex;
+    justify-content:center;
+    align-items: flex-start;
+    flex-direction: row;
+    width: 60rem;
+  }
+
+  .item h5{
+    width: 50%;
+  }
+  .menu img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+  }
+    
+
+
+    @media screen and (max-width: 869px) {
+      .main_title p {
+        font-size: 13px;
+        width: 80%;
+      }
+
+    
+    }
+    @media screen and (max-width: 840px) {
+ 
+      .scroll_up {
+        /* display: none; */
+        position: fixed;
+
+      }
+    
+    }
+    @media screen and (max-width: 804px) {
+      .item{
+        width: 100%;
+      }
+      
+    }
+    @media screen and (max-width: 768px) {
+      .menu-content,
+      .item {
+           width: 90%; 
+           margin-bottom: 20px;
+      }
+  }
+
+  @media screen and (max-width: 500px) {
+
+    .main_title p {
+      font-size: 13px;
+      width: 100%;
+    }
+  }

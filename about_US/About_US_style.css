@@ -1,0 +1,96 @@
+@font-face {
+  font-family: "vazirmatn";
+  src: url(../assets/fonts/vazir/Vazirmatn.ttf);
+}
+body {
+  padding: 0;
+  margin: auto;
+  box-sizing: border-box;
+  width: 100%;
+  font-family: "vazirmatn";
+  direction: rtl;
+}
+
+ul li {
+  list-style: none;
+}
+.main_text {
+  padding: 15px 0;
+  width:100%;
+  background-image: linear-gradient(120deg, #38a7ec, #e99506);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+.main_text div {
+  width: 100%;
+  color: #fff;
+}
+.main_text h4 {
+  font-size: 40px;
+  color: #ffffff;
+  text-shadow: 1px 1px #000000;
+  background-image: linear-gradient(120deg, #22a2b6, #38a7ec);
+  width: 450px;
+  text-align: center;
+  border-radius: 5px;
+}
+.main_text p {
+  text-align: justify;
+  width: 80%;
+  color: #fff;
+}
+
+@media screen and (max-width: 1211px) {
+  .main_text h4 {
+    font-size: 25px;
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .main_text p {
+    width: 45rem;
+  }
+}
+@media screen and (max-width: 869px) {
+  .main_title p {
+    font-size: 13px;
+    width: 80%;
+  }
+}
+@media screen and (max-width: 850px) {
+  .main_text p {
+    width: 30rem;
+  }
+}
+@media screen and (max-width: 840px) {
+  .foods p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 693px) {
+
+  .main_text h4 {
+    font-size: 25px;
+    width: 400px;
+    margin-top: 50px;
+  }
+  .main_text p {
+    width:90%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .main_text h4 {
+    font-size: 25px;
+    width: 280px;
+    margin-top: 50px;
+  }
+  .main_text p {
+    width:80%;
+    font-size: 14px;
+  }
+}

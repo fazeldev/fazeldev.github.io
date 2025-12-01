@@ -1,0 +1,134 @@
+@font-face {
+  font-family: "vazirmatn";
+  src: url(../assets/fonts/vazir/Vazirmatn.ttf);
+}
+body {
+  padding: 0;
+  margin: auto;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  width: 100%;
+  font-family: "vazirmatn";
+  overflow-x: hidden;
+  direction: rtl;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  word-break: keep-all;
+  background-attachment: fixed;
+  background-image: url(../assets/photos/vecteezy_yellow-and-white-grunge-paint-background-vector_27486652.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+form{
+  margin: auto;
+  width: 30%;
+}
+/*  */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #a7e7f5;
+  font-family: "vazirmatn";
+  border-radius: 10px;
+}
+input[type=text]:focus, input[type=password]:focus {
+  background: #79bdcc;
+  outline: none;
+}
+button {
+  background-color: #0c98b7;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 10px;
+  font-family: "vazirmatn";
+}
+
+button:hover {
+  background-color: #79bdcc;
+
+}
+
+.signupbtn {
+  float:right;
+  width: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+
+
+  
+    @media screen and (max-width: 1092px) {
+
+      form{
+        margin: auto;
+        width: 40%;
+      }
+
+    }
+    @media screen and (max-width:953px) {
+      form{
+        margin: auto;
+        width: 45%;
+      }
+    }
+
+
+    @media screen and (max-width: 840px) {
+ 
+      form{
+        margin: auto;
+        width: 50%;
+      }
+      form p{
+        font-size: 15px;
+      }
+      label{
+        font-size: 15px;
+
+      }
+    
+    }
+
+    @media screen and (max-width:700px) {
+      form{
+        margin: auto;
+        width: 80%;
+      }
+      form p{
+        font-size: 15px;
+      }
+      label{
+        font-size: 15px;
+
+      }
+    }
+    @media screen and (max-width:693px) {
+      .call-us-content{
+        flex-direction: column;
+      }
+      /* .messengers{
+        flex-direction: row;
+      } */
+      iframe{
+        width: 400px;
+        height: 250px;
+      }
+    }

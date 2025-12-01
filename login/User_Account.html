@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>رستوران دیاکو</title>
+    <link rel="stylesheet" href="../assets/header-footer-scrollup.css">
+    <link rel="stylesheet" href="../login/User_Account.css">
+</head>
+<body>
+<a name="top"></a>
+<header> 
+    <nav>
+        <div class="navbar-content">
+            <div class="hamburger-menu" onclick="toggleMenu()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="../index.html">خانه</a></li>
+                <li> <a href="#" id="openBtn">فهرست غذا</a></li>
+                <li><a href="../login/User_Account.html">حساب کاربری</a></li>
+                <li><a href="../about_US/About_US.html">درباره ما</a></li>
+                <li><a href="#call_us">تماس باما</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <a href="../food_menu/food_menu.html"><h2>غذاها</h2></a>
+            <a href="../dessert_menu/dessert_menu.html"><h2>دسرها</h2></a>
+            <a href="../drinks/drinks_menu.html"><h2>نوشیدنی</h2></a>
+
+        </div>
+</header>
+<a href="#top"><img src="../assets/photos/go_top.png" class="scroll_up"></a>
+  
+  <form id="registrationForm" onsubmit="return validateForm()">
+    <div class="container">
+      <h1>ورود به حساب</h1>  
+      <label for="email"><b>ایمیل</b></label>
+      <input type="text" placeholder="وارد کردن ایمیل" name="email">
+      <p class="error-message" id="emailError"></p>
+  
+      <label for="psw"><b>پسورد</b></label>
+      <input type="password" placeholder="وارد کردن پسورد" name="psw">
+      <p class="error-message" id="passwordError"></p>
+      <p class="new_user1">
+        آیا حساب ندارید ؟     <a href="../signup/new_Account.html">ایجاد حساب</a>
+    
+      </p>
+      <button type="submit" class="signupbtn">وارد شدن</button>
+    </div>
+  </form>
+
+   <div class="footer">
+    <div class="footer-content">
+        <div class="footer-pre">
+
+            <section style="display: flex;justify-content: center;align-items: center;flex-direction: row;">
+                <div>
+                    <img src="../assets/permission/ecunion-logo-min--150x160xtp.png" alt="">
+                </div>
+                <div>
+                    <img src="../assets/permission/enamad-last--150x160xtp.png" alt="">
+                </div>
+                <div>
+                    <img src="../assets/permission/gardeshgari-min--150x160xtp.png" alt="">
+                </div>
+                <div>
+                    <img src="../assets/permission/samandehi--150x160xtp.png" alt="">
+                </div>
+                <div>
+                </div>
+            </section>
+            <h4>
+                ما مفتخریم که به عنوان میزبان در کرمانشاه از شما دعوت کنیم تا در هر یک از شعب رستوران های
+                “دیاکو” بتوانید تجربه منحصر بفرد و متمایزی داشته باشید و تنوع غذایی متفاوتی را در محیطی آرام و
+                لذت بخش تجربه نمایید.
+                از اینکه ما را لایق پذیرایی میزبانی از خودتان می دانید سپاس گزاریم.
+                شما در رستوران ما مهمترین میهمان دنیا هستید !
+                رستوران دیاکو در سال 1389 با هدف ارائه خدمات به همشهریهای کرمانشاهی و گردشگران تاسیس شد و با
+                عنایت پروردگار
+                و لطف مشتریان وفادار خود تا این لحظه از بهترین سرویس های پذیرایی برای پذیرایی استفاده کرده
+                و علی رغم افت رقبا کیفیت این مجموعه همچنان مانند روزهای شروع است.
+
+            </h4>
+        </div>
+    </div>
+    <a name="call_us"></a>
+    <section class="call-us">
+        <div>
+            <div class="call-title">
+                <h2>تماس باما :</h2>
+            </div>
+        </div>
+        <div class="call-us-content">
+            <div>
+                <h3>آدرس : </h3>
+                <h3>کرمانشاه ، بلوار سی متر اول ، کوچه 107</h3>
+                <h3> تلفن : </h3>
+                <h3> 083-85246554 </h3>
+                <h3>در تمامی روزها غیر از تعطیلات رسمی در خدمت مشتریان هستیم</h3>
+                <h3>از ساعت 9 صبح همه روزه آماده خدمات رسانی هستیم</h3>
+            </div>
+            <div>
+                <iframe
+                    src="https://balad.ir/directions/driving?destination=51.4295411%2C35.6561091#15/35.65646/51.43383"
+                    frameborder="35"></iframe>
+            </div>
+            <div>
+                <div class="messengers">
+                    <p>ما را در شبکه های اجتماعی دنبال کنید</p>
+                    <a href=""><img src="../assets/photos/messenger/telegram.png" style="width: 55px;"></a>
+                    <a href=""><img src="../assets/photos/messenger/instagram.png"></a>
+                    <a href=""><img src="../assets/photos/messenger/facebook.png"></a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-text">
+        </div>
+        <p style="color: #fff;"> created by <span style="color:#27b2eb; cursor: pointer;">Fazel Yaghoti
+        </span> 2025 - 1404 ©</p>
+</div>
+</section>
+</div>
+</body>
+<script src="../assets/SCRIPTS/HUMBERGER ACTIVE.JS"></script>
+<script src="../assets/SCRIPTS/modal foods.js"></script>
+<script src="../assets/SCRIPTS/validation 2.js"></script>
+
+</html>
